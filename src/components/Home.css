@@ -1,0 +1,46 @@
+#Homediv {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ; 
+}
+
+.sketchfab-embed-wrapper, .videoframe {
+  height: 400px;
+  width: 500px;
+  border: solid 5px goldenrod;
+  overflow: hidden;
+  position: relative; 
+  margin-right: 20px;
+}
+
+#bus {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; /* Ensure the bus image fits within the container */
+}
+
+video {
+  height: 100%; /* Take full height of parent container */
+  width: 100%; /* Take full width of parent container */
+  object-fit: cover; /* Ensure the video fills the container without distortion */
+}
+@media screen and (max-width: 555px) {
+  .sketchfab-embed-wrapper, .videoframe {
+    height: 300px;
+    width: 120%; /* Adjust the width as needed */
+    max-width: 350px; /* Ensure frames don't exceed viewport width */
+    border: solid 5px goldenrod;
+    position: relative; 
+    margin-left: 15px; /* Center the frames horizontally */
+    margin-bottom: 20px;
+  }
+  #Homediv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; /* Center items horizontally */
+  }
+}

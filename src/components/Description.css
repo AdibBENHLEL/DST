@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align:center;
+}
+
+th {
+  background-color:goldenrod;
+}
+tr:hover {
+  background-color: #ddd;
+}
+.Map{
+  border: solid 5px goldenrod;
+}
+@media screen and (max-width:850px) {
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      height: 80%;
+    }
+    .Map{
+      width: 80%;
+    }
+    
+}
+

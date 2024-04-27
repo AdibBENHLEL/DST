@@ -1,0 +1,132 @@
+form {
+  margin:10px 200px 10px 200px; /* Add margin around the form */
+  border: solid ;
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow:0 5px 15px 5px rgba(0, 0, 0, .25);
+  background-color: rgb(236, 241, 255);
+}
+
+label {
+  margin-top: 5px;
+  display: block; /* Display labels as blocks to place them above inputs */
+  margin-bottom: 2px; /* Add some space below labels */
+  color: goldenrod;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],textarea,input[type="password"]
+{
+  width:30% ; /* Set inputs and textarea to 100% width */
+  padding: 4px; /* Add padding to inputs and textarea */
+  margin-bottom: 5px; /* Add some space below inputs and textarea */
+  border: 3px solid #01959a ; /* Add a border to inputs and textarea */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: goldenrod;
+  align-items: center;
+  resize: none;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  width: 50%; /* Increase width when focused */
+  border-color: goldenrod; /* Change border color when focused */
+  outline: none; /* Remove default focus outline */
+  transition: 0.3s ease-in-out;
+  background-color:  #e3ecef;
+  color: #01959a;
+}
+input[type="submit"],button {
+  background-color:goldenrod; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding to submit button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 1rem;
+  font-weight: 600;
+  width: 20%;
+  margin-bottom: 6px;
+}
+.cancelbtn{
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.login_button_div{
+  margin-bottom: 15px;
+}
+input[type="submit"]:hover {
+  background-color: #01959a; /* Darker green color on hover */
+}
+
+.RQ_please_label{
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #01959a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+select{
+  background-color: #01959a;
+  color: #e3ecef;
+  margin-left: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 30%;
+}
+#sign_up_form{
+  margin-top: 100px;
+  padding-bottom: 9px;
+}
+#Login_form{
+  margin-top: 130px;
+}
+
+@media screen and (max-width:850px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"],
+  textarea
+  {
+    width:70% ; /* Set inputs and textarea to 100% width */
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="password"]:focus,
+  textarea:focus 
+  {
+  width: 90%; /* Increase width when focused */
+  }
+  .RQ_please_label{
+  font-size: 0.5rem;
+  }
+  input[type="submit"]{
+    font-size: 1.3rem;
+    width: 60%;
+  }
+  form {
+    margin: 10px
+  }
+  .login_button_div .cancelbtn{
+    width: 100px;
+  }
+  .login_button_div .signup_Login_btn{
+    width: 100px;
+  }
+  .signup_button_div .cancelbtn{
+    width: 100px;
+  }
+  .signup_button_div .signup_Login_btn{
+    width: 105px;
+  }
+}
