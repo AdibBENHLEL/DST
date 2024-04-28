@@ -57,6 +57,7 @@ function Description(){
       </tr>
     </table>
     <br></br>
+    <div id="div_tab2">
     <table id="tab2">
     <tr>
         <th>Bus_Code</th>
@@ -64,7 +65,7 @@ function Description(){
         <th>day of departior</th>
         <th>Time of departior</th>
         <th>Arriaval Time</th>
-        <th>Bus_Matricule</th>
+        
     </tr>
     <tr>
         <td>A</td>
@@ -72,7 +73,7 @@ function Description(){
         <td>Friday 24 May</td>
         <td>13:00</td>
         <td>21:00</td>
-        <td>***tunis****</td>
+        
     </tr>
     <tr>
         <td>B</td>
@@ -86,7 +87,7 @@ function Description(){
           <tr>13:15</tr>
         </td>
         <td>21:00</td>
-        <td>***tunis****</td>
+        
     </tr>
     <tr>
         <td>C</td>
@@ -94,9 +95,10 @@ function Description(){
         <td>Friday 24 May</td>
         <td>13:00</td>
         <td>21:00</td>
-        <td>***tunis***</td>
+        
     </tr>
     </table>
+    </div>
     <br></br>
     <iframe className="Map" src="https://www.google.com/maps/d/embed?mid=1rSIFdhi3fhZuomG9hMfOu-JrI6qQ7NQ&ehbc=2E312F" width="640" height="480"></iframe>
     <Footer/>

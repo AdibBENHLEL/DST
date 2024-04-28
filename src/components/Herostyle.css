@@ -4,7 +4,7 @@
 }
 img{
   width: 100%; /* Make sure the image fills the container horizontally */
-  height:600px; /* Adjust to the desired height */
+  height:700px; /* Adjust to the desired height */
   object-fit: cover;
 }
 .HeroText{

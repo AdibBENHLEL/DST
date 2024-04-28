@@ -1,4 +1,4 @@
-table {
+#tab1,#tab2{
   border-collapse: collapse;
   width: 50%;
   margin: 0 auto;
@@ -21,11 +21,29 @@ tr:hover {
   border: solid 5px goldenrod;
 }
 @media screen and (max-width:850px) {
-    table {
+    #tab1{
       border-collapse: collapse;
       width: 90%;
       height: 80%;
     }
+    #tab2 {
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+    }
+    
+    #div_tab2 table {
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+    }
+    
+    #div_tab2 td, #div_tab2 th {
+      padding: 0px;
+      border: 1px solid goldenrod;
+      text-align: center;
+    }
+    
     .Map{
       width: 80%;
     }
