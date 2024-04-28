@@ -74,6 +74,7 @@
    z-index: -1;
    transition: 0.3s ease-in-out;
    display:flex;
+   height: 550px;
   }
   .nav-Menu{/*  le bloc de menu not cliqued sur plus */
     display:flex ;
@@ -103,7 +104,7 @@
     display: block;
     text-align: center;
     padding: 0.2rem;
-    margin: auto;
+    margin: 10px auto;
     border-radius: 20px;
     width: 50%;
     background-color: #01959a;

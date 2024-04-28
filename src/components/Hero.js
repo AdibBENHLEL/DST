@@ -1,4 +1,5 @@
 import "./Herostyle.css"
+import { Link } from "react-router-dom";
 function Hero(props){
   const handleClick = () => {
     const target = document.getElementById(props.scrolldown_div);
@@ -16,9 +17,7 @@ function Hero(props){
       <p>
         {props.TagName}
       </p>
-      <a href={props.url} className={props.btn}>
-         {props.btnName}
-      </a>
+      <Link  to={props.url} className={props.btn}> {props.btnName} </Link>
       <br></br>
       <a onClick={handleClick} className="fleche-link">
       <i class="fa-solid fa-angles-down"></i>     
